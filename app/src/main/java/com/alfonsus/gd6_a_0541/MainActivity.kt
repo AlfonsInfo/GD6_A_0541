@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         createNotificationChannel()
 
         binding!!.btn1.setOnClickListener {
-            sendNotification2()
+            sendNotification1()
         }
         binding!!.btn2.setOnClickListener{
             sendNotification2()
